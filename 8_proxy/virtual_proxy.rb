@@ -15,7 +15,6 @@ class VirtualProxy
   end
 
   def subject
-    @subject = @creation_block.call unless @subject
-    @subject
+    @subject ||= @creation_block.call
   end
 end
