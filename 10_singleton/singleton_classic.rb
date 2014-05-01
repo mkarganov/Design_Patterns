@@ -1,3 +1,5 @@
+# eager instantination
+
 class SimpleLogger
   attr_accessor :level
 
