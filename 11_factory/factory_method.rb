@@ -1,3 +1,4 @@
+# Pushing the 'which class' decision down on a subclass
 # pond = FrogPond.new(3) or DuckPond.new(3)
 # pond.simulate_one_day
 
