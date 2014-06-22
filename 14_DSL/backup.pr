@@ -1,0 +1,5 @@
+Backup.new do |b|
+  b.backup '/home/maks/Pictures'
+  b.to  '/home/backup_test'
+  b.interval 60
+end
